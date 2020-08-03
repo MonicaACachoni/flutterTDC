@@ -1,0 +1,84 @@
+2020-07-29 20:06:59.691172 >>> {command: get_health}
+2020-07-29 20:07:00.809084 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2020-07-29 20:07:00.882101 >>> {command: tap, finderType: ByTooltipMessage, text: Increment}
+2020-07-29 20:07:01.781817 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-07-29 20:07:01.838661 >>> {command: get_text, finderType: ByValueKey, keyValueString: counterText, keyValueType: String}
+2020-07-29 20:07:02.055139 <<< {isError: false, response: {text: 1}, type: _extensionType, method: ext.flutter.driver}
+2020-07-29 20:07:02.119731 >>> {command: waitForCondition, timeout: 5000, conditionName: NoTransientCallbacksCondition}
+2020-07-29 20:07:02.191198 <<< {isError: false, response: null, type: _extensionType, method: ext.flutter.driver}
+2020-07-30 08:18:17.586182 >>> {command: get_health}
+2020-07-30 08:18:19.162027 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2020-07-30 08:19:42.648897 >>> {command: get_health}
+2020-07-30 08:19:44.351031 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2020-07-30 08:28:30.618953 >>> {command: get_health}
+2020-07-30 08:28:31.676105 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2020-07-30 08:28:31.753892 >>> {command: tap, finderType: ByValueKey, keyValueString: peso, keyValueType: String}
+2020-07-30 08:28:33.209402 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-07-30 08:28:33.226356 >>> {command: enter_text, text: 58}
+2020-07-30 08:28:33.345554 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-07-30 08:28:33.362509 >>> {command: tap, finderType: ByValueKey, keyValueString: altura, keyValueType: String}
+2020-07-30 08:28:34.667909 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-07-30 08:28:34.680872 >>> {command: enter_text, text: 1.6}
+2020-07-30 08:28:34.750688 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-07-30 08:28:34.797563 >>> {command: waitFor, finderType: ByValueKey, keyValueString: imc, keyValueType: String}
+2020-07-30 08:28:34.905275 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-07-30 08:28:34.915212 >>> {command: tap, finderType: ByValueKey, keyValueString: imc, keyValueType: String}
+2020-07-30 08:28:35.074270 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-07-30 08:28:35.090226 >>> {command: get_text, finderType: ByValueKey, keyValueString: imcValue, keyValueType: String}
+2020-07-30 08:28:35.365491 <<< {isError: false, response: {text: 22.656249999999996}, type: _extensionType, method: ext.flutter.driver}
+2020-07-30 08:28:35.381450 >>> {command: waitForCondition, timeout: 5000, conditionName: NoTransientCallbacksCondition}
+2020-07-30 08:28:35.515092 <<< {isError: false, response: null, type: _extensionType, method: ext.flutter.driver}
+2020-07-31 08:45:25.380828 >>> {command: get_health}
+2020-07-31 08:45:26.656502 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2020-07-31 08:45:26.755236 >>> {command: tap, finderType: ByValueKey, keyValueString: peso, keyValueType: String}
+2020-07-31 08:45:27.852 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-07-31 08:45:27.866965 >>> {command: enter_text, text: 58}
+2020-07-31 08:45:28.565125 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-07-31 08:45:28.587102 >>> {command: tap, finderType: ByValueKey, keyValueString: altura, keyValueType: String}
+2020-07-31 08:45:29.640312 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-07-31 08:45:29.653827 >>> {command: enter_text, text: 1.6}
+2020-07-31 08:45:29.706684 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-07-31 08:45:29.746578 >>> {command: waitFor, finderType: ByValueKey, keyValueString: imc, keyValueType: String}
+2020-07-31 08:45:29.920664 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-07-31 08:45:29.930632 >>> {command: tap, finderType: ByValueKey, keyValueString: imc, keyValueType: String}
+2020-07-31 08:45:30.013410 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-07-31 08:45:30.035355 >>> {command: get_text, finderType: ByValueKey, keyValueString: imcValue, keyValueType: String}
+2020-07-31 08:45:30.312343 <<< {isError: false, response: {text: 22.656249999999996}, type: _extensionType, method: ext.flutter.driver}
+2020-07-31 08:45:30.330297 >>> {command: waitForCondition, timeout: 5000, conditionName: NoTransientCallbacksCondition}
+2020-07-31 08:45:30.453956 <<< {isError: false, response: null, type: _extensionType, method: ext.flutter.driver}
+2020-07-31 08:50:30.644130 >>> {command: get_health}
+2020-07-31 08:50:32.495648 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2020-07-31 08:50:32.539107 >>> {command: tap, finderType: ByValueKey, keyValueString: peso, keyValueType: String}
+2020-07-31 08:50:34.662318 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-07-31 08:50:34.687248 >>> {command: enter_text, text: 58}
+2020-07-31 08:50:35.120249 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-07-31 08:50:35.135481 >>> {command: tap, finderType: ByValueKey, keyValueString: altura, keyValueType: String}
+2020-07-31 08:50:35.228227 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-07-31 08:50:35.239200 >>> {command: enter_text, text: 1.6}
+2020-07-31 08:50:35.268126 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-07-31 08:50:35.297046 >>> {command: waitFor, finderType: ByValueKey, keyValueString: imc, keyValueType: String}
+2020-07-31 08:50:35.540399 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-07-31 08:50:35.549368 >>> {command: tap, finderType: ByValueKey, keyValueString: imc, keyValueType: String}
+2020-07-31 08:50:35.625165 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-07-31 08:50:35.640125 >>> {command: get_text, finderType: ByValueKey, keyValueString: imcValue, keyValueType: String}
+2020-07-31 08:50:35.866566 <<< {isError: false, response: {text: 22.656249999999996}, type: _extensionType, method: ext.flutter.driver}
+2020-07-31 08:50:35.891499 >>> {command: waitForCondition, timeout: 5000, conditionName: NoTransientCallbacksCondition}
+2020-07-31 08:50:35.926405 <<< {isError: false, response: null, type: _extensionType, method: ext.flutter.driver}
+2020-07-31 15:34:13.648406 >>> {command: get_health}
+2020-07-31 15:34:14.846848 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2020-07-31 15:34:14.937042 >>> {command: tap, finderType: ByValueKey, keyValueString: peso, keyValueType: String}
+2020-07-31 15:34:17.031784 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-07-31 15:34:17.084072 >>> {command: enter_text, text: 58}
+2020-07-31 15:34:17.163439 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-07-31 15:34:17.172285 >>> {command: tap, finderType: ByValueKey, keyValueString: altura, keyValueType: String}
+2020-07-31 15:34:17.664011 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-07-31 15:34:17.711907 >>> {command: enter_text, text: 1.6}
+2020-07-31 15:34:17.744157 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-07-31 15:34:17.769899 >>> {command: waitFor, finderType: ByValueKey, keyValueString: imc, keyValueType: String}
+2020-07-31 15:34:17.932713 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-07-31 15:34:17.982481 >>> {command: tap, finderType: ByValueKey, keyValueString: imc, keyValueType: String}
+2020-07-31 15:34:18.147412 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-07-31 15:34:18.180279 >>> {command: get_text, finderType: ByValueKey, keyValueString: imcValue, keyValueType: String}
+2020-07-31 15:34:18.458392 <<< {isError: false, response: {text: 22.656249999999996}, type: _extensionType, method: ext.flutter.driver}
+2020-07-31 15:34:18.522446 >>> {command: waitForCondition, timeout: 5000, conditionName: NoTransientCallbacksCondition}
+2020-07-31 15:34:18.601370 <<< {isError: false, response: null, type: _extensionType, method: ext.flutter.driver}

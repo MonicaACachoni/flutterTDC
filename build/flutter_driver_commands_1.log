@@ -1,0 +1,12 @@
+2020-07-29 20:07:07.381071 >>> {command: get_health}
+2020-07-29 20:07:07.452135 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2020-07-29 20:07:07.470198 >>> {command: tap, finderType: ByTooltipMessage, text: Increment}
+2020-07-29 20:07:07.706301 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-07-29 20:07:07.754274 >>> {command: tap, finderType: ByTooltipMessage, text: Increment}
+2020-07-29 20:07:07.974582 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-07-29 20:07:07.993339 >>> {command: tap, finderType: ByValueKey, keyValueString: subtract, keyValueType: String}
+2020-07-29 20:07:08.232152 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-07-29 20:07:08.283170 >>> {command: get_text, finderType: ByValueKey, keyValueString: counterText, keyValueType: String}
+2020-07-29 20:07:08.490233 <<< {isError: false, response: {text: 1}, type: _extensionType, method: ext.flutter.driver}
+2020-07-29 20:07:08.536444 >>> {command: waitForCondition, timeout: 5000, conditionName: NoTransientCallbacksCondition}
+2020-07-29 20:07:08.637592 <<< {isError: false, response: null, type: _extensionType, method: ext.flutter.driver}

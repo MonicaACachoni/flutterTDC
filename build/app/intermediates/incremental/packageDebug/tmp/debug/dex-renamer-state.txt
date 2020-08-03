@@ -1,0 +1,4 @@
+#Fri Jul 31 17:46:14 BRT 2020
+base.0=C\:\\Users\\user\\Desktop\\TDC_2020\\auto\\flutterdriver_automation\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
